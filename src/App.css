@@ -64,3 +64,26 @@ select {
     border-radius: 4px;
     cursor: pointer;
 }
+
+.RenderList ul {
+    list-style-type: none;
+}
+
+.RenderList li {
+    font-weight: bold;
+}
+
+.RenderList h2 {
+    color: #2672fb;
+}
+
+.RenderList input[type=button] {
+    width: 30%;
+    background-color: #2672fb;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
