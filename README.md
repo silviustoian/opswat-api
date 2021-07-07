@@ -6,7 +6,8 @@
 
 3.Go to https://cors-anywhere.herokuapp.com/corsdemo and click the Request Acces so you can bypass CORS for 24 hours. See picture below.
 
-![cors](https://user-images.githubusercontent.com/16329832/124720579-f6eb0400-df10-11eb-905e-7cf8924994c7.PNG)
+![cors](https://user-images.githubusercontent.com/16329832/124721217-93150b00-df11-11eb-9a05-a4ba2c242d65.PNG)
+
 
 4.Run npm start in the terminal and it should be good to go.
 
