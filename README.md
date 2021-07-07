@@ -1,7 +1,9 @@
 # How to run locally
 
 1.Clone the repo from the master branch on your local machine
+
 2.Run npm install in the terminal in the current app folder
+
 3.Go to https://cors-anywhere.herokuapp.com/corsdemo and click the Request Acces so you can bypass CORS for 24 hours. See picture below.
 
 ![cors](https://user-images.githubusercontent.com/16329832/124720579-f6eb0400-df10-11eb-905e-7cf8924994c7.PNG)
