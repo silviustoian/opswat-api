@@ -46,7 +46,7 @@ export default function Result({ selectedData }) {
                 <li>{fileExtension}</li>
                 <hr></hr>
                 File size
-                <li>{fileSize}</li>
+                <li>{fileSize} Bytes | {fileSize/1024} KB</li>
                 <hr></hr>
                 
             </ul>

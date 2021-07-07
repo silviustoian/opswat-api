@@ -26,7 +26,7 @@ export default function Form({setSelectedData}) {
             .then(result => jsondata = result)
             .then(() => console.log(jsondata))
             .then(() => setSelectedData([jsondata.file_info.sha256, jsondata.file_info.sha1, jsondata.file_info.md5, jsondata.file_info.upload_timestamp,jsondata.scan_results.start_time,
-            jsondata.scan_results.start_time, jsondata.file_info.file_type_category, jsondata.file_info.file_type_extension, jsondata.file_info.file_size]))
+            jsondata.scan_results.total_time, jsondata.file_info.file_type_category, jsondata.file_info.file_type_extension, jsondata.file_info.file_size]))
             .then(() => {history.push('/result')})
             .catch(error => alert('Wrong data used, check console for more!', error));
        
